@@ -100,7 +100,7 @@ header .container .close i {
 /* Start Home */
 .home ,
 .tafasir{
-    height: 100vh;
+    min-height: 100vh;
     background-image: linear-gradient(#111111ed,#000000ad),url(../imges/1.jpg);
     background-size: cover;
     width: 100%;
@@ -130,6 +130,7 @@ header .container .close i {
     border-radius: 10px;
     direction: rtl;
     padding: 20px;
+    margin-bottom: 20px;
 }
 .home .container .box div {
     display: flex;
