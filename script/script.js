@@ -12,7 +12,7 @@ let home = document.querySelector(".home");
 setInterval(()=>{
     currentIndex++;
     home.style.cssText = `
-    background-image: linear-gradient(#111111ed,#000000ad),url(../imges/${currentIndex}.jpg);
+    background-image: linear-gradient(#111111ed,#000000ad),url(https://github.com/mahmoudmkhemarmohammed/Your-Quran/blob/main/imges/${currentIndex}.jpg);
     `
     if(currentIndex === 8) {
         currentIndex = 1;
