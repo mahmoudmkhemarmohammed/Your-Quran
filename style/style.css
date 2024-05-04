@@ -112,7 +112,7 @@ header .container .close i {
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    height: 100%
+    height: 100vh;
 }
 .home .container .logo {
     padding: 10px;
