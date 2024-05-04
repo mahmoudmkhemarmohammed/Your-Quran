@@ -114,6 +114,7 @@ header .container .close i {
     align-items: center;
 }
 .home .container .logo {
+    margin-top: 30px;
     padding: 10px;
     width: 400px;
     height: 300px;
