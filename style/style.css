@@ -130,6 +130,7 @@ header .container .close i {
     border-radius: 10px;
     direction: rtl;
     padding: 20px;
+    margin-bottom: 40px;
 }
 .home .container .box div {
     display: flex;
@@ -164,9 +165,6 @@ header .container .close i {
     .home .container .logo {
         width: 300px;
         height: 300px;
-    }
-    .home .container .box {
-        margin-bottom: 20px;
     }
 }
 /* End Home */
