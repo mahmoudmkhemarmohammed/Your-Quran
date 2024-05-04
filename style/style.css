@@ -109,6 +109,7 @@ header .container .close i {
 }
 .home .container {
     padding-top: 80px;
+    height:100vh;
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -130,7 +131,6 @@ header .container .close i {
     border-radius: 10px;
     direction: rtl;
     padding: 20px;
-    margin-bottom: 40px;
 }
 .home .container .box div {
     display: flex;
