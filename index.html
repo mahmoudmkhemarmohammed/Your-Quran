@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قرآنك</title>
+    <!-- Main File Css -->
+    <link rel="stylesheet" href="style/style.css">
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="style/all.min.css">
+    <!-- Page Icon -->
+    <link rel="shortcut icon" href="imges/logo.png" type="png">
+    <!-- Hls Library -->
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+<body>
+    <!-- Start Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="imges/logo.png" alt="logo">
+            </div>
+            <ul>
+                <li><a href="#contact">تواصل معنا</a></li>
+                <li><a href="#radio">الإذاعه</a></li>
+                <li><a href="#video">بث مباشر</a></li>
+                <li><a href="#home">الصفحه الرئيسيه</a></li>
+            </ul>
+            <div class="pars">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="close">
+                <i class="fa-solid fa-close"></i>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Home -->
+    <div class="home" id="home">
+        <div class="container">
+            <div class="logo">
+                <img src="imges/logo.png" alt="logo">
+            </div>
+            <div class="box">
+                <div class="reciter">
+                    <h2>اختر قارئ</h2>
+                    <select name="reciter" id="reciter">
+
+                    </select>
+                </div>
+                <div class="moshaf">
+                    <h2>اختر مصحف</h2>
+                    <select name="moshaf" id="moshaf">
+
+                    </select>
+                </div>
+                <div class="surah">
+                    <h2>اختر سوره</h2>
+                    <select name="surah" id="surah">
+
+                    </select>
+                </div>
+                <div class="sound">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Home -->
+    <!-- Start video Live -->
+    <div class="video" id="video">
+        <div class="container">
+            <h2>اختر قناه البث المباشر</h2>
+            <ul>
+                <li data-chanal="https://win.holol.com/live/sunnah/playlist.m3u8">قناه السنه النبويه</li>
+                <li data-chanal="https://win.holol.com/live/quran/playlist.m3u8">قناة القرأن الكريم</li>
+            </ul>
+            <video controls autoplay src=""></video>
+        </div>
+    </div>
+    <!-- End video Live -->
+    <!-- Start Radio -->
+    <div class="radio" id="radio">
+        <div class="container">
+            <h2>اختر اذاعه الراديو</h2>
+            <ul>
+                
+            </ul>
+            <audio controls autoplay src=""></audio>
+        </div>
+    </div>
+    <!-- End Radio -->
+    <!-- Start Tafasir -->
+    <div class="tafasir" id="tafasir">
+        <div class="container">
+            <h2></h2>
+            <select name="tafasir" id="tafasir">
+            </select>
+            <audio controls src=""></audio>
+        </div>
+    </div>
+    <!-- End Tafasir -->
+    <!-- Start Contact Us -->
+    <div class="contact" id="contact">
+        <h2>تواصل معنا</h2>
+        <div class="container">
+            <div class="inputs">
+                <input type="text" name="contact" placeholder="Frist Name">
+                <input type="text" name="contact" placeholder="Last Name">
+                <input type="text" name="contact" placeholder="Phone Number">
+                <textarea name="contact" placeholder="Content..."></textarea>
+                <input type="submit" value="Send">
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d440151.5755532351!2d31.14500759811257!3d30.473382165758046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f7df5a4163d605%3A0x6d8d8c16bd36bffe!2z2YXYrdin2YHYuNipINin2YTZhdmG2YjZgdmK2Kk!5e0!3m2!1sar!2seg!4v1711724957955!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact Us -->
+    <!-- Start Footer -->
+    <footer>
+        <div class="container">
+            <h3>Made With Love By Mahmoud Mkhemar © 2024</h3>
+            <ul>
+                <li><a href="https://github.com/mahmoudmkhemarmohammed">Github</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100021987258084&mibexitd=ZbWKwL">Facebook</a></li>
+                <li><a href="#">Linkedin</a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <button id="btn-scroller"><i class="fa-solid fa-arrow-up"></i></button>
+    <!-- Main File Js -->
+    <script src="script/script.js"></script>
+</body>
+</html>
