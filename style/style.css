@@ -165,6 +165,9 @@ header .container .close i {
         width: 300px;
         height: 300px;
     }
+    .home .container .box {
+        margin-bottom: 20px;
+    }
 }
 /* End Home */
 /* Start Video */
