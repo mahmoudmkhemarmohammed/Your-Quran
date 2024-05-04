@@ -7,6 +7,17 @@ let apiKey = "https://www.mp3quran.net/api/v3";
 let language = "ar";
 let soundControls = document.querySelector(".home .container .box .sound");
 let close = document.querySelector("header .container .close");
+let currentIndex = 1;
+let home = document.querySelector(".home");
+setInterval(()=>{
+    currentIndex++;
+    home.style.cssText = `
+    background-image: linear-gradient(#111111ed,#000000ad),url(../imges/${currentIndex}.jpg);
+    `
+    if(currentIndex === 8) {
+        currentIndex = 1;
+    }
+},6000)
 iconPars.onclick = () => {
     list.classList.add("open")
     setTimeout(() => {
