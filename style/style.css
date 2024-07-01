@@ -20,6 +20,7 @@ header {
     background-color: #00000084;
     position: fixed;
     width: 100%;
+    z-index:100000000000;
 }
 header .container {
     display: flex;
